@@ -1,0 +1,116 @@
+.footer-page {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2f2f;
+  font-family: "Causten";
+  color: #fff;
+
+  .footer-stage-1 {
+    width: 100%;
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+
+    .footer-part-1 {
+      display: flex;
+      width: -webkit-fill-available;
+      height: 292px;
+      flex-direction: column;
+      gap: 5px;
+      justify-content: center;
+
+      h1 {
+        margin-bottom: 15px;
+      }
+      a {
+        color: #f6f6f6;
+        margin-bottom: 10px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #f6f6f6;
+
+        scale: 1.1;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+  .footer-stage-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+
+    h1 {
+      margin-bottom: 15px;
+      align-self: end;
+      position: absolute;
+    }
+
+    .footer-stage-2-part-1 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      // Icon Hover Styling
+      svg:hover {
+        color: #fff;
+        cursor: pointer;
+        scale: 1.1;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+
+    .footer-stage-2-part-2 {
+      img:hover {
+        scale: 1.05;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+      }
+    }
+  }
+  .footer-stage-3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+      color: #fff !important;
+      width: 100%;
+      font-family: "Causten";
+      .ant-collapse-item {
+        width: 100%;
+        .ant-collapse-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .ant-collapse-expand-icon {
+            padding: 0;
+            margin: 0;
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    padding: 12px 32px;
+  }
+}

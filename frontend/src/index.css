@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html,
+.scroll-container {
+  overflow: scroll;
+}
+
+html,
+.scroll-container {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-sec {
+  background-color: #F6F6F6;
+}
+
+.bg-w {
+  background-color: #fff;
+}
+
+.bg-primary{
+  background: #8A33FD;
+}
+
+.text-primary{
+  color: #8A33FD;
+}
+
+.text-sec{
+  color: #3C4242;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+ .link {
+   text-decoration: underline;
+ }
+
+ .m-0{
+   margin: 0 !important;
+ }
+
+ .mb-50{
+   margin-bottom: 50px;
+ }
+ .mb-20{
+   margin-bottom: 20px;
+ }
+ .mt-30{
+   margin-top: 30px;
+ }
+ .mt-50{
+   margin-top: 50px;
+ }
+ .mt-20{
+   margin-top: 20px;
+ }
+ .mt-5{
+   margin-top: 5px;
+ }
+
+ .p-20{
+   padding: 20px;
+ }
+
+ .radius-12{
+   border-radius: 12px;
+ }
+
+ .bold{
+  font-weight: bold;
+ }
+
+ .dis-fcc{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .dis-fcsb{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+ }
+
+ .hov-scale:hover{
+  transition: all 0.2s ease-in-out;
+   transform: scale(1.1);
+ }
+
+ .op-7{
+   opacity: 0.7;
+ }
+
+ .input-md {
+   padding: 8px 12px;
+ }
+
+ .sm-divider{
+   margin: 10px 0;
+   opacity: 0.5;
+ }

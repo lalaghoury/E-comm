@@ -1,0 +1,23 @@
+.deals {
+  width: 100%;
+  min-height: 200px;
+  gap: 30px;
+  color: #fff;
+  font-family: "Core Sans C", sans-serif;
+  margin: 20px 0;
+
+  .deals-content {
+    width: 50%;
+    border-radius: 12px;
+    padding: 50px 40px;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      color: #fff;
+    }
+  }
+}

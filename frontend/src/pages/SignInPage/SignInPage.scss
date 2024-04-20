@@ -1,0 +1,64 @@
+.signin-page {
+  font-family: "Core Sans C", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .signin-left {
+    width: 50%;
+    height: 100%;
+    border: 1.5px solid #0cff71;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .signin-right {
+    width: 50%;
+    height: 100%;
+    padding: 20px 65px;
+    border: 1px solid green;
+
+    .signin-main {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      height: 100%;
+
+      .signin-text {
+        h1 {
+          align-self: flex-start;
+        }
+        .signup-btns {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          .signup-btn {
+            padding: 20px 20px !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+          }
+        }
+      }
+
+      .signin-form {
+        width: 100%;
+
+        .forgot-password {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
+}

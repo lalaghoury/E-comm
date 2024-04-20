@@ -1,0 +1,67 @@
+.signup-page {
+  font-family: "Causten", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .signup-left {
+    width: 50%;
+    height: 100%;
+    border: 1.5px solid #0cff71;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .signup-right {
+    width: 50%;
+    height: 100%;
+    padding: 20px 65px;
+    border: 1px solid green;
+
+    .signup-main {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      height: 100%;
+
+      .signup-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+          align-self: flex-start;
+          margin-bottom: 10px;
+        }
+        p {
+          align-self: flex-start;
+          margin-bottom: 20px;
+          opacity: 0.8;
+        }
+        .signup-btns {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          .signup-btn {
+            padding: 20px 20px !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+          }
+        }
+      }
+
+      .signup-form {
+        width: 100%;
+      }
+    }
+  }
+}

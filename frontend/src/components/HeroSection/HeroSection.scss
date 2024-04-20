@@ -1,0 +1,52 @@
+.hero-section {
+  width: 100%;
+  min-height: 500px;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Core Sans C", sans-serif;
+
+  .hero-section-carousel {
+    height: 700px;
+    background-image: url("../../assests/images/carouselImage1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .carousel-content {
+      display: flex;
+      flex-direction: column;
+      padding: 100px 100px;
+
+      h4 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 500;
+      }
+      h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #fff;
+        font-size: 78px;
+        font-weight: 800;
+        line-height: 93.622px; /* 120.028% */
+        letter-spacing: 0.315px;
+      }
+
+      button {
+        outline: #3c4242;
+        font-family: "Causten";
+        transition: all 0.3s ease;
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      button:hover {
+        outline: #3c4242;
+        transition: all 0.3s ease;
+        color: #670aeb;
+        font-size: 25px;
+        font-weight: 700;
+      }
+    }
+  }
+}

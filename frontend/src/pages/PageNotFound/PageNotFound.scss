@@ -1,0 +1,20 @@
+.page-not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 68px);
+
+  .page-not-found-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 400px;
+    text-align: center;
+    padding: 50px 0;
+
+    img {
+      width: 395.96px;
+      height: 273.551px;
+    }
+  }
+}

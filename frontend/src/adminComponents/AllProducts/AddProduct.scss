@@ -1,0 +1,42 @@
+.add-product {
+  width: 100%;
+
+  .add-product-form {
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+
+    .input-md {
+      padding: 8px 12px;
+    }
+
+    .ant-select-arrow {
+      padding-top: 12px;
+    }
+    .ant-select-selector {
+      padding: 20px;
+    }
+  }
+}
+
+.custom-quill {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  font-family: "Caustine", serif;
+  padding: 6px 8px;
+  font-size: 14px;
+  line-height: 1.5715;
+  transition: all 0.3s;
+
+  .ql-toolbar.ql-snow {
+    border: none;
+    border-bottom: #ccc 1px solid;
+  }
+  .ql-container.ql-snow {
+    border: none;
+  }
+}
